@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIBAFun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>The PIBAFun site</h1>
+    <div class="container">
+        <div class="card">
+            <h2>Clicker</h2>
+            <p id="counter-display">0</p>
+            <!-- TODO: dodaj przycisk zwiększający licznik -->
+             <button onclick="addPoint()">CLICK</button>
+             <button onclick="resetCounter()">Reset</button>
+        </div>
+        <div class="card">
+            <h2>Random quest</h2>
+            <p id="random-display">Click and check!</p>
+            <!-- TODO: dodaj przycisk uruchamiający losowanie -->
+             <button onclick="randomItem()">Check</button>
+        </div>
+        <div class="card">
+            <h2>Widget</h2>
+            <!-- TODO: osadź zewnętrzny widget za pomocą iframe -->
+             <h3>Nothing here...</h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
